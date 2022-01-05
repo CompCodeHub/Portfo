@@ -42,7 +42,7 @@ def submit_form():
 #     file = database.write(f'\nName: {name}\nEmail:{email}\nSubject: {subject}\nMessage: {message} ')
 
 def write_to_csv(data):
-  with open('WebServer/database.csv','a', newline = '') as database2:
+  with open('Portfo/database.csv','a', newline = '') as database2:
     name = data['name']
     email = data['email']
     subject = data['subject']
@@ -54,4 +54,4 @@ def write_to_csv(data):
 
 
 #Needed to run on repl
-app.run(host='0.0.0.0', debug=True)
+#app.run(host='0.0.0.0', debug=True)
