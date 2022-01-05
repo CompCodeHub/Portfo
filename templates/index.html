@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Suyashs's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="./static/assets/css/main.css" />
+ <link rel="shortcut icon" href="{{ url_for('static', filename='/favicon.ico') }}">
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="./static/assets/images/avatar.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Suyash Talekar</a></h1>
+					<p>Ohio State Student</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">My Education</a></li>
+						<li><a href="#three">My Projects</a></li>
+						<li><a href="#four">Contact</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/suyashtalekar/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="./static/assets/images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>About Me</h2>
+									</header>
+									<p>Hello! My name is Suyash Talekar. I am a 3rd year Computer Engineering student at the Ohio State University who is an aspiring Software Developer. I built a server for this website in python flask to showcase my achievements and a way for people to contact me.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3><u>Education</u></h3>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="./static/assets/images/pic01.jpg" alt="" /></a>
+											<div  class="inner">
+												<h4>The Ohio State University, Columbus, OH</h4>
+												<p>B.S. Computer Science Engineering, <br>
+												   Expected Graduation: May 2023 <br> 
+												   Overall GPA (4.00 scale): 3.416; <br> 
+												   Major GPA: 3.192</p>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="./static/assets/images/pic02.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Cuyahoga Community College, Cleveland, OH</h4>
+												<p>Associate of Science, <br>
+                          Graduated: May 2020 <br>
+                          Overall GPA (4.00 scale): 3.64 </p>
+											</div>
+										</article>
+										<article>
+									</div>	
+								</div>
+							</section>
+
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3><u>My Projects</u></h3>
+									<p>Below are some of my academic and personal projects:</p>
+									<div class="features">
+										<article>
+											<div>
+												<h4>Warehouse Management System</h4>
+												<p>Developed an interactive program using C that can manage and maintain store inventory items.</p>
+											</div>
+										</article>
+										<article>
+											<div>
+												<h4>Portfolio Website</h4>
+												<p>Programmed the server for my portfolio website using python's flask library in order to showcase my achievements.</p>
+											</div>
+										</article>
+										<article>
+											<div>
+												<h4>Glossary Builder</h4>
+												<p> Built a program using Java that can create interactive html web pages containing words and their 
+meanings with a given input file.</p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3><u>Contact Me</u></h3>
+									<p>If you have any messages, comments or suggestions for me, please use the below form to contact me.</p>
+									<form method="post" action="submit_form">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+											<ul class="actions">
+													<li><input type="submit" onclick="alert('Thankyou for reaching out, I\'ll  get back to you shortly!')" class="primary" value="Send" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="./static/assets/js/jquery.min.js"></script>
+			<script src="./static/assets/js/jquery.scrollex.min.js"></script>
+			<script src="./static/assets/js/jquery.scrolly.min.js"></script>
+			<script src="./static/assets/js/browser.min.js"></script>
+			<script src="./static/assets/js/breakpoints.min.js"></script>
+			<script src="./static/assets/js/util.js"></script>
+			<script src="./static/assets/js/main.js"></script>
+
+	</body>
+</html>
